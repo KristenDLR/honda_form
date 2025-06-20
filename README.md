@@ -1,8 +1,8 @@
 # Honda Form
 I wanted to take some time to complete the same code challenge once I got home, but this time I am free to search through documentation and clear my blocks. 
 
-Below you can find the resources that helped me work out my syntax errors, I will take about an hour from beginning (creating a repo) to end.
-
+Below you can find the resources that helped me work out my syntax errors, I will take about an hour from creating a repo.
+My goal is to resolve the issues I have and show some functionality.
 
 ## Resources explored
 [Input onChange](https://www.geeksforgeeks.org/reactjs/react-onchange-event/)
@@ -19,3 +19,8 @@ Below you can find the resources that helped me work out my syntax errors, I wil
 # Screenshots
 
 ![alt text](image.png)
+
+
+
+https://github.com/user-attachments/assets/afa2bd67-ddfa-4bb0-96b5-5f80b6122c3d
+
