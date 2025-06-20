@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import TaskItem from '../TaskItem/TaskItem';
 
 export default function TaskForm() {
     //I had my syntax wrong here, I used {} instead of []
@@ -8,7 +9,8 @@ export default function TaskForm() {
     //drill newTask down to <TaskItem />
     const [newTask, setNewTask] = useState([])
 
-    const handleAddTask = () => {
+    const handleAddTask = (e) => {
+      e.preventDefault();
     //?need to avoid submission when value is non-existant
      if (!taskName || !dueDate) return; 
 
@@ -26,6 +28,7 @@ export default function TaskForm() {
     }
 
     return (
+     <>
         <form>
             <div>
                 <h2>Task Name:</h2>
@@ -46,6 +49,9 @@ export default function TaskForm() {
             <button onClick={handleAddTask}>Add</button>
         </form>
 
+        <TaskItem tasks={newTask}/>
+    
+    </>
     
     )
 }
