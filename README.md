@@ -6,3 +6,5 @@ Below you can find the resources that helped me work out my syntax errors, I wil
 
 ## Resources explored
 
+
+# Screenshots
