@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import TaskItem from '../TaskItem/TaskItem';
 
 export default function TaskForm() {
     //I had my syntax wrong here, I used {} instead of []
@@ -26,6 +27,7 @@ export default function TaskForm() {
     }
 
     return (
+     <>
         <form>
             <div>
                 <h2>Task Name:</h2>
@@ -46,6 +48,9 @@ export default function TaskForm() {
             <button onClick={handleAddTask}>Add</button>
         </form>
 
+        <TaskItem tasks={newTask}/>
+    
+    </>
     
     )
 }
