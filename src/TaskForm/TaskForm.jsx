@@ -9,7 +9,8 @@ export default function TaskForm() {
     //drill newTask down to <TaskItem />
     const [newTask, setNewTask] = useState([])
 
-    const handleAddTask = () => {
+    const handleAddTask = (e) => {
+      e.preventDefault();
     //?need to avoid submission when value is non-existant
      if (!taskName || !dueDate) return; 
 
